@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- SPEED: prepare connection early -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- LOAD THE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- <style>
+        p{
+            color: white;
+            background-color: forestgreen;
+        }
+    </style> -->
+</head>
+<body> 
+
+    <!-- * CSS Descendant Combinator Examples
+     <div class="container">
+        <h2>Examples 1: Direct and Nasted ParaGraphs</h2>
+        <p>This is paragraph is directly inside the container</p>
+        <div>
+            <p>This paragraph is nested inside a div within the container.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="card">
+        <h2>Title</h2>
+        <p>Hello</p>
+        <div class="content">
+            <p>This the card description</p>
+            <span>Read More...</span>
+            <span>Read More...</span>
+        </div>
+    </div>
+    Inline CSS (isinde the tag) -->
+    <!-- <p style=" color: indianred">Hello</p> -->
+
+    <!-- Inline CSS (isinde <style> tag) -->
+        <!-- <p>How are you doing</p>
+
+        <p>Tinubu is a good president?</p> -->
+
+        <!-- ** CSS Child Combinator -->
+
+        <!-- 
+        This CSS child combinator is represented by the greater-than sign (>).
+        It is used to select elements that are a direact child of specified
+        parents element -->
+
+        <!-- <div class=" container">
+            <p> Hello 1</p>
+            <ul>
+                <li>
+                    <p>another hello</p>
+                </li>
+            </ul>
+        </div> -->
+
+        <!-- ** CSS next-sibling combinator -->
+         <!-- 
+            The CSS next-sibling combunator, represented by the 
+            plus sign (+), is used to select an eement that is
+            immediately preceded by specific element, and both
+            share the same parent. 
+        -->
+
+        <!-- <div class="card">
+            <h2>Title</h2>
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+            <div>A div</div>
+            <p>paragraph 3</p>
+        </div> -->
+
+        <!-- *** Subsequent-sibling combinator -->
+         <!-- The subsequen-sibling combinator, represented by the
+          tilde sign (~), is used to select an element that is
+          preceded by a specific element, where both elemnts
+          share the same parent.
+
+          ! [NOTE] -> the subsequent-sibling combinator selects all siblings elements that follow the specified elements that follow the specified element, not just the one immediately next to it.
+        -->
+<!-- 
+        <article>
+            <h1>Article Title</h1>
+            <p>Intro paragraph</p>
+            <h2>Hello h2</h2>
+            <p>paragraph 1</p>
+            <p>Paragrah 2</p>
+            <h2>Paragrah 1</h2>
+        </article> -->
+
+        <!-- Pseudo-classes in CSS are keyword added to a selector that specifes a special state of the selected element(s). They allow you to apply styles basd on information that is not contained in the document tree, such as history (e.g, whether a link has been visited), content state (e.g, whether a checkbox is checked), or position within the parent (e.g the first child element).
+         -->
+        
+         <!-- ! They are written with single colom (:) followed by the pseudo-class name, like this:'selector:pseudo' -->
+<!-- 
+         <ul>
+            <li> Item 1</li>
+            <li> Item 2</li>
+            <li> Item 3</li>
+            <li> Item 4</li>
+            <li> Item 5</li>
+            <li> Item 6</li>
+         </ul> -->
+         
+ <!-- <div class="color-demo solid-bg">
+    <h2>Solid Background Color<h2>
+    <P>This div has a solid blue bacground. </p>
+</div>  -->
+
+<!-- <div class="color-demo gradient-bg">
+        <h2>Gradient Background</h2> -->
+        <!-- <p>This div has a gradient background.</p>
+    </div> -->
+
+    <div class="image-demo simple-image">
+        <!-- <h2>Gradient Background</h2> -->
+        <!-- <p> This div has image background</p>
+    </div> -->
+
+    <!-- Text styling in CSS: -->
+    <!-- Test styling is crucial for creating visually appealing and readable
+       content on webpages CSS provides extensive control over text apprearance 
+       through various properties. -->
+
+    <h1>Test Styling Examples</h1>
+
+    <div class="examples-container">
+        <h2>Font Family</h2>
+        <p class="font-family-example">This text uses a serif font stack:
+            Georgia, Times New Roma, or the default serif font.</p>
+
+    </div>
+
+    <div class="examples-container">
+        <h2>Font Sizing, weight & Style</h2>
+        <p class="font-sizing">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Laudantium.</p>
+    </div>
+
+    <div class="examples-container">
+        <h2>Color & Background</h2>
+        <p class="colorful-text">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sunt, cum!</p>
+    </div>
+
+    <div class="examples-container">
+        <h2>Text Alignment</h2>
+        <p class="aligned-text">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sunt, cum!</p>
+    </div>
+
+
+    <div class="examples-container">
+        <h2>Text Decoration & Transformation</h2>
+        <p class="decorated-text">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sunt, cum!</p>
+    </div>
+
+        <div class="examples-container">
+        <h2>Letter & Line Spacing</h2>
+        <p class="spaced-text">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sunt, cum!</p>
+
+            <p class="tight-test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, maiores accusamus!</p>
+    </div>
+</body> 
+</html>

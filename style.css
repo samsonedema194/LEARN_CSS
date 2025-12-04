@@ -1,0 +1,134 @@
+/* .container p{
+    color: blue
+} */
+
+/* 
+.container > p, ul li > p{
+    color: indianred;
+}
+
+h2 + p,p, div + p, p + div{
+    color: forestgreen;
+    font-weight: bold
+}
+p + div{
+    color: rgb(139, 34, 137);
+    font-weight: bold} */
+
+    h2 ~ p{
+        color: blueviolet;
+        font-style: italic;
+    }
+
+
+    /* css (background-color) property.  */
+
+
+    .color-demo{
+        padding: 30px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin: 50px auto;
+    }
+
+    .solid-bg{
+        background-color: rgb(123, 231, 8);
+    }
+
+
+    /* Linear Gradient */
+/* A linear gradient is a type of image defined in css that creates a smooth, continous, transition between two, or more colours along a straight line. 
+! [NOTE] it is a powerful, flexible and performant way to add colourful backgrounds to elements without needing to use external image files (like JPEGs or PNGs).
+*/
+
+/* .gradient-bg{
+    background: linear-gradient(to right,  rgb(11, 128, 64), rgb(150, 209, 173), rgb(244, 238, 127) );
+}  */
+
+/* .simple-image{
+    background-image: url(Image_fx\ \(75\).jpg); */
+    /* background size: cover; */
+    /* width: 100%;
+    height: 300px; */
+    /* background-repeat: no-repeat; */
+/* } */
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(index.html);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.examples-container{
+    background: rgb(234, 234, 234);
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.font-family-example{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.font-family-example {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.font-sizing {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.colorful-text {
+    color: #e74c3c;
+    background-color: #fdeaea;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.aligned-text{
+    text-align: justify;
+    color: #2980b9;
+}
+
+.decorated-text{
+    text-decoration: underlined dotted #3498db;
+    text-transform: capitalize;
+}
+
+.sapced-text{
+    letter-spacing: 2px;
+    line-height: 2;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.tight{
+    letter-spacing: -0.5px;
+    font-weight: bold;
+    color: #27ae60;
+}
