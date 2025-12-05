@@ -15,7 +15,7 @@ p + div{
     color: rgb(139, 34, 137);
     font-weight: bold} */
 
-    h2 ~ p{
+    /* h2 ~ p{
         color: blueviolet;
         font-style: italic;
     }
@@ -27,7 +27,7 @@ p + div{
     .color-demo{
         padding: 30px;
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: rgb(238, 236, 236);
         margin: 50px auto;
     }
 
@@ -53,7 +53,7 @@ p + div{
     /* background-repeat: no-repeat; */
 /* } */
 
-body{
+/* body{
     padding: 0;
     margin: 0;
     background-image: url(index.html);
@@ -131,4 +131,38 @@ h1{
     letter-spacing: -0.5px;
     font-weight: bold;
     color: #27ae60;
+} */ 
+
+.box{
+    background-color: #FFF553;
+    padding: 20px;
+    width: 200px;
+    border: 5px solid #005D00;
+    height: 50px;
+    margin: 30px;
+}
+
+.card{
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 400px;
+    padding-left: 5px;
+   
+    
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: 2px solid #FFF553;
+
+    background-color: #005D00;
+}
+
+.Smart-box{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid red;
+    background: #ffe9e9;
+    box-sizing: border-box;
 }
