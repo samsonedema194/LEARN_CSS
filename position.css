@@ -1,3 +1,104 @@
 
 
 
+/*
+    *Every HTML element on a page is positioned based on CSS rules.
+
+    * There are five main positioning types,
+    (1). static
+    (2). relative
+    (3). absolute
+    (4). fixed
+    (5). sticky
+*/
+
+.box{
+    width: 200px;
+    height: 100px;
+    background: lightblue;
+    /* position: static; */
+}
+
+/* Relative Positioning */
+/* The element stays in normal document flow, but you can shift is using ::after
+    * top
+    * left
+    * right
+    * bottom
+*/
+
+/* .relative-box{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    top: 20px;
+    left: 40px;
+} */
+
+/* Absolute Positioning */
+/* The element is removed from tghe normal flow and positioned relative to the nearest positioned ancestor. */
+.abs-box{
+    width: 150px;
+    height: 80px;
+    background: red;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.parent{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 7px solid forestgreen
+}
+.child-top-left{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: indianred;
+    /* margin-top: 15px;
+    margin-left: 15px; */
+    top: 15px;
+    left: 15px;
+}
+
+.child-top-right{
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    background-color:indianred;
+    right: 15px;
+    top: 15px;
+    
+}
+
+.child-center{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: indianred;
+    right: 45%;
+    top: 50%;
+
+}
+
+.child-bottom-left{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: indianred;
+    bottom : 15px;
+    right: 15px;
+}
+
+.child-bottom-right{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: indianred;
+    bottom : 15px;
+    left: 15px;
+}
