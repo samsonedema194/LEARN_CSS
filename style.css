@@ -27,8 +27,12 @@ p + div{
     .color-demo{
         padding: 30px;
         text-align: center;
-        color: rgb(238, 236, 236);
+        color: rgb(13, 0, 0);
         margin: 50px auto;
+    }
+    p + h1{
+       color: #ffe9e9;
+       font-weight: lighter
     }
 
     .solid-bg{
@@ -41,9 +45,9 @@ p + div{
 ! [NOTE] it is a powerful, flexible and performant way to add colourful backgrounds to elements without needing to use external image files (like JPEGs or PNGs).
 */
 
-/* .gradient-bg{
+.gradient-bg{
     background: linear-gradient(to right,  rgb(11, 128, 64), rgb(150, 209, 173), rgb(244, 238, 127) );
-}  */
+} 
 
 /* .simple-image{
     background-image: url(Image_fx\ \(75\).jpg); */
@@ -133,7 +137,7 @@ h1{
     color: #27ae60;
 } */ 
 
-.box{
+/* .box{
     background-color: #FFF553;
     padding: 20px;
     width: 200px;
@@ -165,4 +169,5 @@ h1{
     border: 5px solid red;
     background: #ffe9e9;
     box-sizing: border-box;
-}
+    text-align: right;
+} */
